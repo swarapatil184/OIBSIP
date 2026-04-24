@@ -1,0 +1,32 @@
+ BMI Calculator — Python Project
+
+A command-line BMI (Body Mass Index) calculator built with Python. 
+Users input their weight (kg) and height (m), and the program 
+calculates their BMI score and classifies it into a health category.
+
+ Features:
+- Calculates BMI using the standard formula: weight / height²
+- Classifies BMI into: Underweight, Normal, Overweight, Obese
+- Input validation with helpful error messages
+- Clean and readable terminal output
+- Also includes a stylish HTML web version
+
+ Tech Stack:
+- Language: Python 3
+- Web Version: HTML, CSS, JavaScript
+
+ Files:
+- bmi_calculator.py  → Python command-line version
+- bmi_calculator.html → Interactive web version
+
+ How to Run:
+1. Clone the repository
+2. Open terminal and run: python bmi_calculator.py
+3. Enter your weight and height when prompted
+4. View your BMI result and health category
+
+ BMI Categories:
+- < 18.5   → Underweight
+- 18.5–24.9 → Normal weight
+- 25.0–29.9 → Overweight
+- ≥ 30.0   → Obese
